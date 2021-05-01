@@ -6822,7 +6822,7 @@ Created using IcoMoon - icomoon.io
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-delay: 6s;
-  animation-delay: 6s ;
+  animation-delay: 7s ;
   opacity: 0;
   z-index: 99;
 }
@@ -6836,7 +6836,7 @@ Created using IcoMoon - icomoon.io
   z-index: 9999;
   transition: all 0.3s ease-out;
   animation: dropIn 5s forwards ;
-  animation-delay: 4s;
+  animation-delay: 5s;
 }
 
 @keyframes dropIn{
