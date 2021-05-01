@@ -9,7 +9,7 @@
  * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
 
  * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
+ 
  =========================================================
 
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -290,6 +290,7 @@
 .bootstrap-switch-on .bootstrap-switch-handle-off {
   opacity: 0;
 }
+
 
 /*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
 /* Functional styling;
@@ -1290,16 +1291,16 @@
 .btn,
 .navbar .navbar-nav > a.btn {
   border-width: 2px;
-  font-weight: 400;
-  font-size: 0.8571em;
+  font-weight: 900;
+  font-size: 1em;
   line-height: 1.35em;
   margin: 5px 1px;
-  border: none;
+  border:none;
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #888;
-  color: #ffffff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
 }
 .btn:hover,
 .btn:focus,
@@ -1323,8 +1324,8 @@
 .show > .navbar .navbar-nav > a.btn.dropdown-toggle,
 .show > .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
 .show > .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-  background-color: #979797;
-  color: #ffffff;
+  background-color: #e6e6e6;
+  color: #646464;
   box-shadow: none;
 }
 .btn:hover,
@@ -2979,8 +2980,10 @@ p.description {
 .category {
   text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 2px;
   color: #9a9a9a;
 }
+
 
 .text-primary {
   color: #378c3f !important;
@@ -4507,7 +4510,7 @@ Created using IcoMoon - icomoon.io
   position: absolute;
   top: 100vh;
   margin-top: -60px;
-  padding: 0 15px;
+  padding: 0 0px;
   width: 100%;
   color: rgba(255, 255, 255, 0.5);
 }
@@ -4581,12 +4584,27 @@ Created using IcoMoon - icomoon.io
 
 .profile-page .title {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .profile-page .description,
 .profile-page .category {
   text-align: center;
+}
+
+.code-quote{
+  position: relative;
+  left: 39%;
+  margin-top: 2em;
+  margin-bottom: -2em;
+  padding: 0;
+}
+.code-quote p{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  text-align: left
+  ;
 }
 
 .profile-page h5.description {
@@ -4609,7 +4627,7 @@ Created using IcoMoon - icomoon.io
   text-align: center;
   margin: 15px 0 0px;
 }
-.profile-page .content .social-description h2 {
+.profile-page .content .social-description {
   margin-bottom: 15px;
 }
 
@@ -4626,6 +4644,7 @@ Created using IcoMoon - icomoon.io
   margin-top: 45px;
   padding-bottom: 50px;
 }
+
 
 .section-full-page:after,
 .section-full-page:before {
@@ -4972,10 +4991,10 @@ Created using IcoMoon - icomoon.io
   content: "";
 }
 .page-header:before {
-  background-color: rgba(0, 82, 136, 0.555);
+  background-color: rgba(0, 47, 78, 0.555);
 }
-.page-header[filter-color="Green"] {
-  background: rgba(255, 255, 255, 0.39);
+.page-header[filter-color="Blue"] {
+  background: rgba(116, 64, 64, 0.815);
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
@@ -5382,6 +5401,10 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 991px) {
+  .code-quote{
+    left:36%;
+  }
+  
   .sidebar-collapse .navbar-collapse {
     position: fixed;
     display: block;
@@ -5418,6 +5441,10 @@ Created using IcoMoon - icomoon.io
     left: 0;
     z-index: -1;
   }
+#contact-btn{
+  padding-left: 25px;
+}
+
   .sidebar-collapse .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link {
     margin: 0 1rem;
     margin-top: 0.3125rem;
@@ -6440,6 +6467,7 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (min-width: 768px) {
+ 
   .image-container.image-right {
     top: 80px;
     margin-left: -100px;
@@ -6451,6 +6479,10 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 768px) {
+ .code-quote{
+    left:31%;
+  }
+
   .image-container.image-left {
     margin-bottom: 220px;
   }
@@ -6476,6 +6508,10 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 576px) {
+ .code-quote{
+    left:25%;
+  }
+
   .navbar[class*="navbar-expand-"] .container {
     margin-left: 0;
     margin-right: 0;
@@ -6735,6 +6771,54 @@ Created using IcoMoon - icomoon.io
 .page-header .btn {
   width: 140px;
 }
+.cc-profile-image{
+  padding-top: 0px;
+  margin-top: 0;
+}
+.cc-profile-image a {
+  position: relative;
+}
+
+.cc-profile-image a:before {
+  content: "";
+  border: 10px solid rgba(187, 192, 209, 0.6);
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+  animation: pulsate 1.6s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s ;
+  opacity: 0;
+  z-index: 99;
+}
+
+.cc-profile-image img {
+  opacity: 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: 15px solid transparent;
+  z-index: 9999;
+  transition: all 0.3s ease-out;
+  animation: dropIn 5s forwards ;
+
+}
+
+@keyframes dropIn{
+20% {
+  opacity: 0;
+  transform: translateY(-40%) rotate(180deg);
+}
+30%,100%{
+  opacity: 1;
+  transform: translateY(0em) rotate(0deg);
+}
+}
 
 /* Profile Image Style */
 @-webkit-keyframes pulsate {
@@ -6764,46 +6848,6 @@ Created using IcoMoon - icomoon.io
   }
 }
 
-.cc-profile-image a {
-  position: relative;
-}
-
-.cc-profile-image a:before {
-  content: "";
-  border: 15px solid rgba(187, 192, 209, 0.6);
-  border-radius: 50%;
-  height: 180px;
-  width: 180px;
-  position: absolute;
-  left: 0;
-  -webkit-animation: pulsate 1.6s ease-out;
-  animation: pulsate 1.6s ease-out;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  opacity: 0;
-  z-index: 99;
-}
-
-.cc-profile-image img {
-  position: relative;
-  border-radius: 50%;
-  height: 180px;
-  width: 180px;
-  padding: 0;
-  margin: 0;
-  border: 15px solid transparent;
-  z-index: 9999;
-  transition: all 0.3s ease-out;
-}
-
-.cc-profile-image a:hover img {
-  transform: scale(1.06, 1.06);
-}
-
-.cc-profile-image a:hover:before {
-  -webkit-animation: none;
-  animation: none;
-}
 
 /* Profile Page Social button Style */
 .button-container .btn-default {

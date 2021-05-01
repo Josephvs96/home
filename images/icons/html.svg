@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="68.182" viewBox="0 0 60 68.182">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="html" transform="translate(-1100 -86.362)">
+    <path id="html5" class="cls-1" d="M48.153,19.987l.682-7.458H11.165l2,22.756h26.08L38.309,45l-8.4,2.258L21.561,45l-.553-5.966H13.551l.937,11.847,15.426,4.261h.17V55.1l15.3-4.22L47.515,27.7H20.072l-.638-7.712H48.155ZM0,0H60L54.545,61.278l-24.631,6.9-24.46-6.9Z" transform="translate(1100 86.362)"/>
+  </g>
+</svg>

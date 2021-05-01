@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="windows" transform="translate(-337 -340)">
+    <path id="windows-2" data-name="windows" class="cls-1" d="M0,8.622,24.375,5.25V28.878H0m27.373-24L60,0V28.5H27.373M0,31.5H24.375V55.128L0,51.748M27.373,31.5H60V60L27.75,55.5" transform="translate(337 340)"/>
+  </g>
+</svg>
