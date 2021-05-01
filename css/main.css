@@ -5400,6 +5400,18 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (max-width: 991px) {
+
+.btn.btn-icon.btn-sm,
+.navbar .navbar-nav > a.btn.btn-icon.btn-sm {
+  height: 2.875rem;
+  min-width: 2.875rem;
+  width: 2.875rem;
+}
+
+.btn.btn-icon:not(.btn-footer) i.now-ui-icons, .btn.btn-icon:not(.btn-footer) i.fa, .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.now-ui-icons, .navbar .navbar-nav > a.btn.btn-icon:not(.btn-footer) i.fa {
+	font-size: large;
+}
+
   .code-quote{
     left:36%;
   }
@@ -6104,6 +6116,7 @@ Created using IcoMoon - icomoon.io
     left: 0;
     z-index: -1;
   }
+
   .burger-menu .navbar-collapse .navbar-nav:not(.navbar-logo) .nav-link {
     margin: 0 1rem;
     margin-top: 0.3125rem;
