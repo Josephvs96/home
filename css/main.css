@@ -1288,6 +1288,10 @@
   margin-right: -5px;
 }
 
+.lang{
+  margin:0 27px;
+}
+
 .btn,
 .navbar .navbar-nav > a.btn {
   border-width: 2px;
@@ -6098,6 +6102,10 @@ Created using IcoMoon - icomoon.io
 }
 
 @media screen and (min-width: 992px) {
+  .lang{
+    margin:0px 5px;
+  }
+
   .burger-menu .navbar-collapse {
     position: fixed;
     display: block;
@@ -6782,6 +6790,8 @@ Created using IcoMoon - icomoon.io
   font-size: 18px;
   letter-spacing: 1px;
 }
+
+
 
 /* Body */
 /* Profile Page Background Style */
